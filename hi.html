@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATM Machine</title>
+    <link rel="stylesheet" type="text/css" href="hi.css">
+</head>
+<body>
+    <div class="atm">
+        <div class="login">
+            <h2>ATM Login</h2>
+            <input type="text" id="accountNumber" placeholder="Account Number">
+            <input type="password" id="pin" placeholder="PIN">
+            <button onclick="login()">Login</button>
+            <form action="hi.java" method="post">
+        </div>
+        <div class="operations">
+            <h2>ATM Operations</h2>
+            <p id="balance">Balance: $0.00</p>
+            <input type="number" id="amount" placeholder="Amount">
+            <button onclick="checkBalance()">Balance Inquiry</button>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="hi.js"></script>
+</body>
+</html>

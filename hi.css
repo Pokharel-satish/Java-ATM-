@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.atm {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atm h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login,
+.operations {
+    margin-bottom: 20px;
+}
+
+.login input,
+.operations input,
+.login button,
+.operations button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login button,
+.operations button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.login button:hover,
+.operations button:hover {
+    background-color: #45a049;
+}
+
+.operations {
+    display: none; /* Initially hidden */
+}
+
+#message {
+    text-align: center;
+    color: #FF0000;
+}
